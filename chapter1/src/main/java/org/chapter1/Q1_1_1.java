@@ -34,6 +34,9 @@ public class Q1_1_1 {
 		//这里构造 BigDecimal一个用的是String  一个用的是 Double  但是输出的结果不一致，具体原因不清楚，只能说，构造BigDecimal 尽量用String吧
 		//后面的值不对，应该与double的表示，误差有关系，用二进制表示浮点数，是有一定误差的，具体不阐述了
 		
+		int abs = Math.abs(Integer.MIN_VALUE);
+		System.out.println(abs);
+		
 	}
 
 }
